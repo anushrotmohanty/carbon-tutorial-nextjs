@@ -1,0 +1,80 @@
+[     419ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-client)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:36618
+[     717ms] [ERROR] Warning: Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?%s%s 
+
+Check the render method of `ForwardRef(LinkComponent)`. 
+    at HeaderName (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/HeaderName.js:30:5)
+    at LinkComponent (webpack-internal:///(app-client)/./node_modules/next/dist/client/link.js:113:26)
+    at header
+    at Header (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/Header.js:30:16)
+    at render (webpack-internal:///(app-client)/./src/components/TutorialHeader/TutorialHeader.js:17:43)
+    at HeaderContainer (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/HeaderContainer.js:27:13)
+    at TutorialHeader
+    at div
+    at Theme (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/Theme/index.js:64:9)
+    at div
+    at Providers (webpack-internal:///(app-client)/./src/app/providers.js:12:26)
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js:57:27)
+    at RedirectBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js:106:26)
+    at ReactDevOverlay (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:38:27)
+    at NotFoundErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js:25:27)
+    at NotFoundBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js:84:26)
+    at HotReload (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:324:29)
+    at Router (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/app-router.js:158:25)
+    at ErrorBoundaryHandler (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/error-boundary.js:55:27)
+    at ErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/error-boundary.js:127:32)
+    at AppRouter (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/app-router.js:409:38)
+    at ServerRoot (webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:172:26)
+    at RSCComponent
+    at Root (webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:188:26) @ webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:37
+[     719ms] [ERROR] Warning: Extra attributes from the server: %s%s inert 
+    at nav
+    at SideNavRenderFunction (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/SideNav.js:50:15)
+    at header
+    at Header (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/Header.js:30:16)
+    at render (webpack-internal:///(app-client)/./src/components/TutorialHeader/TutorialHeader.js:17:43)
+    at HeaderContainer (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/HeaderContainer.js:27:13)
+    at TutorialHeader
+    at div
+    at Theme (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/Theme/index.js:64:9)
+    at div
+    at Providers (webpack-internal:///(app-client)/./src/app/providers.js:12:26)
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js:57:27)
+    at RedirectBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js:106:26)
+    at ReactDevOverlay (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:38:27)
+    at NotFoundErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js:25:27)
+    at NotFoundBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js:84:26)
+    at HotReload (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:324:29)
+    at Router (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/app-router.js:158:25)
+    at ErrorBoundaryHandler (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/error-boundary.js:55:27)
+    at ErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/error-boundary.js:127:32)
+    at AppRouter (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/app-router.js:409:38)
+    at ServerRoot (webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:172:26)
+    at RSCComponent
+    at Root (webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:188:26) @ webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:37
+[     720ms] [ERROR] Warning: %s: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.%s Content 
+    at Content (webpack-internal:///(app-client)/./node_modules/@carbon/react/es/components/UIShell/Content.js:26:16)
+    at div
+    at Providers (webpack-internal:///(app-client)/./src/app/providers.js:12:26)
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js:57:27)
+    at RedirectBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js:106:26)
+    at ReactDevOverlay (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:38:27)
+    at NotFoundErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js:25:27)
+    at NotFoundBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js:84:26)
+    at HotReload (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:324:29)
+    at Router (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/app-router.js:158:25)
+    at ErrorBoundaryHandler (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/error-boundary.js:55:27)
+    at ErrorBoundary (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/error-boundary.js:127:32)
+    at AppRouter (webpack-internal:///(app-client)/./node_modules/next/dist/client/components/app-router.js:409:38)
+    at ServerRoot (webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:172:26)
+    at RSCComponent
+    at Root (webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:188:26) @ webpack-internal:///(app-client)/./node_modules/next/dist/client/app-index.js:37
+[     789ms] [WARNING] Image with src "/tab-illo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[    1061ms] [WARNING] Image with src "/tab-illo.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[   23999ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:159

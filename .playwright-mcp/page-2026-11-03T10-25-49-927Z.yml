@@ -1,0 +1,72 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner "Carbon Tutorial" [ref=f1e3]:
+      - link "Skip to main content" [ref=f1e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - link "IBM Carbon Tutorial" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e6]: IBM
+        - text: Carbon Tutorial
+      - navigation "Carbon Tutorial" [ref=f1e7]:
+        - list [ref=f1e8]:
+          - listitem [ref=f1e9]:
+            - link "Repositories" [ref=f1e10] [cursor=pointer]:
+              - /url: /repos
+      - generic [ref=f1e12]:
+        - generic [ref=f1e13]:
+          - button "Notifications" [ref=f1e15] [cursor=pointer]
+          - tooltip [aria-hidden]
+        - generic [ref=f1e18]:
+          - button "User Avatar" [ref=f1e20] [cursor=pointer]
+          - tooltip [aria-hidden]
+        - generic [ref=f1e24]:
+          - button "App Switcher" [ref=f1e26] [cursor=pointer]
+          - tooltip [aria-hidden]
+    - main [ref=f1e29]:
+      - generic [ref=f1e30]:
+        - generic [ref=f1e31]:
+          - navigation "Page navigation" [ref=f1e32]:
+            - list [ref=f1e33]:
+              - listitem [ref=f1e34]:
+                - link "Getting started" [ref=f1e35] [cursor=pointer]:
+                  - /url: /
+          - heading "Design & build with Carbon" [level=1] [ref=f1e36]
+        - generic [ref=f1e37]:
+          - tablist "Page navigation" [ref=f1e39]:
+            - tab "About" [selected] [ref=f1e40] [cursor=pointer]:
+              - generic [ref=f1e41]:
+                - generic "About" [ref=f1e42]
+                - button [aria-hidden] [ref=f1e44]
+            - tab "Design" [ref=f1e47] [cursor=pointer]:
+              - generic [ref=f1e48]:
+                - generic "Design" [ref=f1e49]
+                - button [aria-hidden] [ref=f1e51]
+            - tab "Develop" [ref=f1e54] [cursor=pointer]:
+              - generic [ref=f1e55]:
+                - generic "Develop" [ref=f1e56]
+                - button [aria-hidden] [ref=f1e58]
+          - tabpanel "About" [ref=f1e61]:
+            - generic [ref=f1e62]:
+              - generic [ref=f1e63]:
+                - heading "What is Carbon?" [level=3] [ref=f1e64]
+                - paragraph [ref=f1e65]: Carbon is IBM’s open-source design system for digital products and experiences. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors.
+                - button "Learn more" [ref=f1e66] [cursor=pointer]
+              - img "Carbon illustration" [ref=f1e68]
+        - generic [ref=f1e70]:
+          - heading "The Principles" [level=3] [ref=f1e72]
+          - generic [ref=f1e73]:
+            - heading [level=4] [ref=f1e74]:
+              - text: Carbon is
+              - strong [ref=f1e75]: Open
+            - paragraph [ref=f1e76]: It's a distributed effort, guided by the principles of the open-source movement. Carbon's users are also it's makers, and everyone is encouraged to contribute.
+          - generic [ref=f1e79]:
+            - heading [level=4] [ref=f1e80]:
+              - text: Carbon is
+              - strong [ref=f1e81]: Modular
+            - paragraph [ref=f1e82]: Carbon's modularity ensures maximum flexibility in execution. It's components are designed to work seamlessly with each other, in whichever combination suits the needs of the user.
+          - generic [ref=f1e85]:
+            - heading [level=4] [ref=f1e86]:
+              - text: Carbon is
+              - strong [ref=f1e87]: Consistent
+            - paragraph [ref=f1e88]: Based on the comprehensive IBM Design Language, every element and component of Carbon was designed from the ground up to work elegantly together to ensure consistent, cohesive user experiences.
+  - alert [ref=f1e91]
